@@ -1,0 +1,49 @@
+
+@use "../base/index" as *;
+
+
+
+.formulario {
+    p {
+        font-size: 14px;
+        color: $grisOscuro;
+        margin: 20px 0 0 0;
+    }
+
+    legend {
+        font-size: 20px;
+        color: $grisOscuro;
+    }
+
+    label {
+        font-weight: $bold;
+        text-transform: uppercase;
+        display: block;
+    }
+    input:not([type="submit"]), 
+    textarea,
+    select {
+        padding: 10px;
+        display: block;
+        width: 100%;
+        background-color: $blanco;
+        border: 1px solid $gris;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    textarea {
+        height: 200px;
+    }
+
+    .forma-contacto {
+        max-width: 300px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    input[type="radio"] {
+        margin: 0;
+        width: auto;
+    }
+}

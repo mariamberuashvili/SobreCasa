@@ -1,0 +1,18 @@
+@use "../base/index" as *;
+
+
+@include tablet {
+    .iconos-nosotros {
+        @include grid(3, 20px);
+    }
+}
+
+.icono {
+    text-align: center;
+    img {
+        height: 100px;
+    }
+    h3 {
+        text-transform: uppercase;
+    }
+}

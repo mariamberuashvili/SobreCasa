@@ -1,0 +1,17 @@
+@use "../base/index" as *;
+@use "../layout/index" as *;
+@use "sass:color";
+
+.contenido-nosotros {
+
+    @include tablet {
+        @include grid(2, 20px);
+    }
+}
+
+.texto-nosotros blockquote {
+    font-weight: $black;
+    font-size: 22px;
+    margin: 30px 0 0 0;
+    padding-left: 10px 0 30px 0;
+}

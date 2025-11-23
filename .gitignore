@@ -1,0 +1,31 @@
+# Dependencias de PHP
+/vendor/
+/includes/config/database.php
+
+
+# Dependencias de Node
+/node_modules/
+
+# Locks 
+composer.lock
+package-lock.json
+
+# Builds
+/dist/
+public/build/
+
+
+# Cypress outputs
+cypress/videos/
+cypress/screenshots/
+
+# Archivos del entorno
+.env
+.env.local
+
+# Logs
+*.log
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
